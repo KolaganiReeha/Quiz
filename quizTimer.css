@@ -1,0 +1,71 @@
+*{
+    margin:0;
+}
+body{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#container{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 20px
+    rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 700px;
+}
+
+#timer{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: red;
+}
+
+#question{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+#options{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#score{
+    color: green;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+button{
+    color: white;
+    background-color: blue;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: transform 0.2s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.optBtn{
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 600px;
+    border-radius: 4px;
+    margin: 4px;
+}
